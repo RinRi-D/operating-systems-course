@@ -1,0 +1,5 @@
+54476  vim ex1.sh
+54477  ls
+54478  git status
+54479  history
+54480  history | tail -n5
