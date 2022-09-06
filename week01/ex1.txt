@@ -1,5 +1,5 @@
-/usr/bin/x86_64-pc-linux-gnu-gcc-ranlib
-/usr/bin/x86_64-pc-linux-gnu-gcc-nm
-/usr/bin/x86_64-pc-linux-gnu-gcc-ar
-/usr/bin/x86_64-pc-linux-gnu-gcc-12.2.0
-/usr/bin/x86_64-pc-linux-gnu-gcc
+/usr/bin/arm-none-eabi-gcc-ranlib
+/usr/bin/arm-none-eabi-gcc-nm
+/usr/bin/arm-none-eabi-gcc-ar
+/usr/bin/arm-none-eabi-gcc-12.2.0
+/usr/bin/arm-none-eabi-gcc
