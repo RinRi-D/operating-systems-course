@@ -1,0 +1,5 @@
+During the experiment, I have got in total 8 processes for n=3, and 32 processes for n=5.
+
+If we do fork() in a loop, in each iteration of a loop (but not at the same time), the number of processes increases by two (x * 2, where x is the current number of processes).
+
+That is why, in the end, the total number of processes will be 2^n.
