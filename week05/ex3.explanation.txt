@@ -1,0 +1,8 @@
+My machine has 4/8 cores
+
+From results, improvement from 1->2 threads and 2->4 threads is almost 2 times,
+but not exactly, since creating threads and joining them takes time as well.
+
+When the number of threads is larger then the number of physical cores of my CPU,
+e.g. 4->10 threads, 10->100 threads, the improvement is insignificant, since two
+threads cannot run on the same core at the same time.

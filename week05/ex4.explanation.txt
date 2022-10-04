@@ -1,0 +1,12 @@
+The execution time is almost the same as ex3.
+But, in this case, after increasing number of threads
+4->10 and 10->100, the execution time is
+insignificantly increasing. It is probably caused by
+mutexes, since they don't allow multiple threads run
+the locked code at the same time. The number of
+threads is way higher than the number of physical
+cores and the most of them don't even work at the same
+time because of mutexes. The increased amount of
+execution time is probably caused by the overheads of
+threads and mutexes.
+
