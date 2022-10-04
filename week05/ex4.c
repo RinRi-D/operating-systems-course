@@ -79,6 +79,7 @@ int main(int argc, char *argv[]) {
       Free the allocated memory.
     */
     pthread_mutex_destroy(&global_lock);
+    free(threads);
 
     printf("%d\n", primes_found_so_far);
     exit(EXIT_SUCCESS);

@@ -84,8 +84,12 @@ int main(int argc, char *argv[]) {
       TODO
       Free the allocated memory.
     */
-    for (int i = 0; i < n_threads; i++)
+    for (int i = 0; i < n_threads; ++i) {
         free(results[i]);
+    }
+    free(threads);
+    free(results);
+    free(requests);
 
     printf("%d\n", total_result);
 

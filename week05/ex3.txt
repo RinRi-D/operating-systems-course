@@ -1,15 +1,15 @@
 time ./ex3 10000000 1
-10.82user 0.00system 0:10.88elapsed 99%CPU (0avgtext+0avgdata 1576maxresident)k
-0inputs+0outputs (0major+75minor)pagefaults 0swaps
+10.29user 0.01system 0:10.30elapsed 99%CPU (0avgtext+0avgdata 1648maxresident)k
+0inputs+0outputs (0major+76minor)pagefaults 0swaps
 time ./ex3 10000000 2
-11.17user 0.05system 0:07.02elapsed 159%CPU (0avgtext+0avgdata 1640maxresident)k
-0inputs+0outputs (0major+78minor)pagefaults 0swaps
+10.69user 0.00system 0:06.72elapsed 159%CPU (0avgtext+0avgdata 1692maxresident)k
+0inputs+0outputs (0major+79minor)pagefaults 0swaps
 time ./ex3 10000000 4
-11.66user 0.16system 0:03.95elapsed 298%CPU (0avgtext+0avgdata 3056maxresident)k
-0inputs+0outputs (0major+86minor)pagefaults 0swaps
+11.63user 0.01system 0:03.84elapsed 302%CPU (0avgtext+0avgdata 3128maxresident)k
+0inputs+0outputs (0major+84minor)pagefaults 0swaps
 time ./ex3 10000000 10
-20.34user 0.33system 0:03.04elapsed 679%CPU (0avgtext+0avgdata 3528maxresident)k
-0inputs+0outputs (0major+105minor)pagefaults 0swaps
+20.63user 0.00system 0:03.13elapsed 657%CPU (0avgtext+0avgdata 5120maxresident)k
+0inputs+0outputs (0major+102minor)pagefaults 0swaps
 time ./ex3 10000000 100
-22.07user 0.15system 0:02.98elapsed 744%CPU (0avgtext+0avgdata 5744maxresident)k
-0inputs+0outputs (0major+348minor)pagefaults 0swaps
+22.58user 0.00system 0:02.96elapsed 761%CPU (0avgtext+0avgdata 5916maxresident)k
+0inputs+0outputs (0major+345minor)pagefaults 0swaps
