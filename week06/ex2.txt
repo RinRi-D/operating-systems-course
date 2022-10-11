@@ -1,0 +1,3 @@
+The shortest job first algorithm is definitely more fair compared to FCFS algorithm.
+The reason is obvious: the FCFS algorithm does care about only one thing - arival time,
+    which doesn't mean a lot to 'fairness' of a scheduler algorithm. As fairness, I mean decreasing the wait time and TAT.
