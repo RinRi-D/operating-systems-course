@@ -65,8 +65,9 @@ int main() {
                 jd++;
             }
         }
+
         for (int i = 0; i < n; ++i) {
-            if (curt >= p[i].at) {
+            if (curt >= p[i].at && p[i].used == 0) {
                 ready[qsz++] = i;
                 p[i].used = 1;
             }
@@ -78,7 +79,7 @@ int main() {
 
         if (qsz == 0) {
             for (int i = 0; i < n; ++i) {
-                if (p[i].used != 0) {
+                if (p[i].used == 0) {
                     ready[qsz++] = i;
                     p[i].used = 1;
                     curt = p[i].at;
