@@ -1,0 +1,2 @@
+   text	   data	    bss	    dec	    hex	filename
+  53740	   7528	   1568	  62836	   f574	dwm
