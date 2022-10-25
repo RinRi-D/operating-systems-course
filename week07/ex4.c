@@ -18,6 +18,7 @@ void* myrealloc(void* ptr, size_t prev_size, size_t new_size) {
     return res;
 }
 
+// Copied and fixed the code from goo.gl/EMpzYz
 // test myrealloc using ex3
 int main() {
 	//Allows you to generate random number

@@ -1,3 +1,5 @@
+// Copied and fixed the code from the slides
+
 #include <stdio.h>
 
 int main() {

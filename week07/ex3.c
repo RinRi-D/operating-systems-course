@@ -1,3 +1,5 @@
+// Copied and fixed the code from goo.gl/EMpzYz
+
 #include <stdlib.h>
 #include <stdio.h>
 #include <time.h>
