@@ -1,0 +1,4 @@
+16-bit address can access 2^16 = 65536 bytes of memory
+8KB is 8192 bytes.
+65536 / 8192 = 8 pages
+Since there are 8 pages, there are 8 table entries.
