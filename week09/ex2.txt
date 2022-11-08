@@ -1,0 +1,8 @@
+In case when most frequently and recently used pages repeat,
+the number of hits increases, while misses decrease.
+
+The test case in "inputmy1.txt" clearly demostrates the point
+above, when there are few page frames available.
+
+When pages appear more randomly compared to the previous case,
+the number of misses increases.
