@@ -1,0 +1,6 @@
+-rw-r--r-- 1 rinri users 4 Nov 15 21:08 _ex3.txt
+-rwx---rwx 1 rinri users 4 Nov 15 21:08 _ex3.txt
+-rwxrwxrwx 1 rinri users 4 Nov 15 21:08 _ex3.txt
+660 means read and write permissions (6) for user and the group
+775 means read, write, and execute permissions (7) for user and the group, and read and execute permissions (5) for others
+777 means read, write, and execute permissions (7) for everyone
