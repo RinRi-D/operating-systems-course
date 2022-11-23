@@ -1,0 +1,5 @@
+
+W/ CHROOT
+usr lib64 lost+found lib bin file1 file2 ex2.out 
+W/O CHROOT
+tmp var opt home dev run etc bin lost+found lib sys sbin lib64 proc usr mnt root boot srv 
