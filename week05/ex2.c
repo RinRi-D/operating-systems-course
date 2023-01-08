@@ -14,7 +14,7 @@ typedef struct {
 
 void *print_thread(void *argv) {
     Thread *t = argv;
-    printf("%d %s\n", t->i, t->mes);
+    printf("%d %lu %s\n", t->i, t->id, t->mes);
     pthread_exit(NULL);
     return NULL;
 }
